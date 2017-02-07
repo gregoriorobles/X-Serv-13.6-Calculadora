@@ -4,7 +4,7 @@ import sys
 
 NUM_VALORES = 4
 
-if len(sys.argv) != NUM_VALORES:
+if len(sys.argv) !=NUM_VALORES:
     sys.exit("Usage: python3 calculadora.py operacion operando1 operando2")
 
 _, operacion, operando1, operando2 = sys.argv
